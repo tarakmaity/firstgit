@@ -8,16 +8,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Firstjsx = () =>"hello world";
+// const Firstjsx = () => {
 
-//ata diao hoini same error as6e
-
-// function Firstjsx () {
-//   return(
-//     <div>
-//       <h3>hello world</h3>
-//     </div>
-//   )
 // }
+
+
+
+function Firstjsx () {
+  return(
+    <div className="heading">
+      <h1>TRADE ANALYST</h1>
+       <nav>
+        <ul>
+            <li>Products</li>
+            <li>Community</li>
+            <li>Markets</li>
+            <li>News</li>   
+            <li>Brokers</li>
+        </ul>
+       </nav>
+
+       <input type="search" placeholder="search markets.." name="market" id="search" />
+    </div>
+)}
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Firstjsx />);
