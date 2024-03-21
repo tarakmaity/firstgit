@@ -16,8 +16,10 @@ import ReactDOM from "react-dom";
 
 function Firstjsx () {
   return(
+    <div>
     <div className="heading">
       <h1>TRADE ANALYST</h1>
+      <input type="search" placeholder="search markets.." name="market" id="search" />
        <nav>
         <ul>
             <li>Products</li>
@@ -28,7 +30,24 @@ function Firstjsx () {
         </ul>
        </nav>
 
-       <input type="search" placeholder="search markets.." name="market" id="search" />
+      
+        
+    </div>
+    <div class="horizontal-line"></div>
+    <div className="middle">
+      <h1>Market summary</h1>
+    </div>
+    <div className="middlenav">
+      <nav>
+        <ul>
+          <li>Indics</li>
+          <li>Stocks</li>
+          <li>Crypto</li>
+          <li>Forex</li>
+        </ul>
+      </nav>
+    </div>
+  
     </div>
 )}
 const root = ReactDOM.createRoot(document.getElementById("root"));

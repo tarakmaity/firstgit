@@ -7,58 +7,95 @@
    margin-left: 3rem;
 }
 .heading h1 {
-   font-family:  font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+    margin-top: 10px;
 }
+
 .heading ul {
-    list-style: none;
-    display: flex;
-     margin-top: 1rem;
-    font-size: large;
+    color: #ffffff;
+display: flex;
+list-style-type: none;
+margin-left: 4rem;
+margin-top:-0.1px;
+font-size: large;
+    margin-bottom: 0px;
     
 }
 .heading ul li {
-    padding: 1rem;
+   margin: 20px;
     
 }
 .heading ul li:hover {
-    /* color: blue;
-    transition: all 0.3s ease;
-    background-color: gray;
-   border-radius: 36px;
-   border: none;
- margin-top: 20px; */
- align-items: center;
+   
+ /* align-items: center;
     background: #0000;
     border: none;
-    border-radius: 36px;
-    box-sizing: border-box;
     color: var(--header-color-text);
     cursor: pointer;
     display: flex;
     height: 40px;
-    letter-spacing: .3px;
-    margin: 12px 0;
+   
+    margin: 12px ;
     outline: none;
     overflow: visible;
-    padding: 8px 16px;
-    position: relative;
-    white-space: nowrap;
+    padding:0px 0px; */
+    background: gray;
+    border-radius: 5px;
+   
 
 }
 .heading input{
     color: rgb(0, 0, 0);
-    height: 40px;
-    width: 17rem;
+    height: 35px;
+    width: 20rem;
     margin-left: 3rem;
-    margin-top: 1.5rem;
-    border-radius: 40px;
+    margin-top: 10px;
+    border-radius: 35px;
     border-style: none;
     background-color: grey;
     box-sizing: border-box;
-    padding: 6px 8px;
+    
+    
 }
  ::placeholder{
     color: #ffffff;
     text-indent: 15px;
    font-size: medium;
+}
+.middle h1{
+    color: #ffffff;
+    margin-left: 48px;
+    margin-top: 4rem;
+}
+.middlenav ul {
+color: #ffffff;
+display: flex;
+list-style-type: none;
+margin-left: 1rem;
+margin-top: 3rem;
+
+}
+.middlenav ul li {
+    
+    font-size: medium;
+    font-feature-settings: "tnum" on, "lnum" on;
+    font-size: var;
+    font-style: normal;
+    font-weight: 600;
+    font-size:larger;
+    margin-right: 10rem;
+    padding: 3px;
+}
+.middlenav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+.middlenav nav ul li:hover{
+    background-color: gray;
+    border-radius: 5px;
+    
+}
+.horizontal-line {
+    border-bottom: 3px solid #ccc; /* Horizontal line styling */
+   margin-bottom: 1rem;
+   margin-top:-0.7px;
 }
