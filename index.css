@@ -41,6 +41,7 @@ font-size: large;
     padding:0px 0px; */
     background: gray;
     border-radius: 5px;
+    cursor: pointer;
    
 
 }
@@ -59,13 +60,15 @@ font-size: large;
 }
  ::placeholder{
     color: #ffffff;
-    text-indent: 15px;
+    text-indent: 35px;
    font-size: medium;
+    font-size: medium;
+    text-size-adjust: 2rem;
 }
 .middle h1{
     color: #ffffff;
     margin-left: 48px;
-    margin-top: 4rem;
+    margin-top: -1rem;
 }
 .middlenav ul {
 color: #ffffff;
@@ -92,10 +95,36 @@ margin-top: 3rem;
 .middlenav nav ul li:hover{
     background-color: gray;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .horizontal-line {
     border-bottom: 3px solid #ccc; /* Horizontal line styling */
    margin-bottom: 1rem;
    margin-top:-0.7px;
+  
+}
+.icong{
+    margin-left: 80rem;
+   margin-bottom: 0px;
+   margin-top: -1px;
+   font-size: 27px;
+}
+.icongit{
+    margin-left: 82.5rem;
+    margin-top: -2.1rem;
+    font-size: 25px;
+    color: #ffffff;
+}
+.iconinsta{
+    margin-left: 1240px;
+    margin-top: -1.8rem;
+    font-size: 25px;
+    color: #db46cf;
+}
+.iconface{
+    margin-left: 1195px;
+    margin-top: -1.9rem;
+    font-size: 25px;
+    color: #1404fd;
 }

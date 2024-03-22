@@ -7,7 +7,10 @@
 //   root.render(<Firstjsx />,document.getElementById("root"))
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { FcGoogle} from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaFacebookSquare } from "react-icons/fa";
 // const Firstjsx = () => {
 
 // }
@@ -33,10 +36,16 @@ function Firstjsx () {
       
         
     </div>
+    
     <div class="horizontal-line"></div>
+    <div className="icong"><FcGoogle /></div>
+    <div className="icongit"><FaGithub /></div>
+    <div className="iconinsta"><FaSquareInstagram /></div>
+    <div className="iconface"><FaFacebookSquare /></div>
     <div className="middle">
       <h1>Market summary</h1>
     </div>
+    
     <div className="middlenav">
       <nav>
         <ul>
