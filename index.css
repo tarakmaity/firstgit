@@ -5,6 +5,7 @@
     color: rgb(255, 255, 255);
    display: flex;
    margin-left: 3rem;
+   cursor: pointer;
 }
 .heading h1 {
     font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
@@ -69,6 +70,7 @@ font-size: large;
     color: #ffffff;
     margin-left: 48px;
     margin-top: -1rem;
+    cursor: pointer;
 }
 .middlenav ul {
 color: #ffffff;

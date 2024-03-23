@@ -5,7 +5,7 @@
 // const Firstjsx = () => {<h3>hello world</h3>}
 // const root = ReactDOM.createElementById(root)
 //   root.render(<Firstjsx />,document.getElementById("root"))
-import React from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import { FcGoogle} from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
@@ -18,6 +18,9 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 
 function Firstjsx () {
+    
+
+
   return(
     <div>
     <div className="heading">
@@ -33,7 +36,7 @@ function Firstjsx () {
         </ul>
        </nav>
 
-      
+       
         
     </div>
     
