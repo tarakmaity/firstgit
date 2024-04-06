@@ -1,27 +1,17 @@
 
-// import React from "react";
-// import ReactDOM from "react-dom"
-// import root from "react-dom/client"
-// const Firstjsx = () => {<h3>hello world</h3>}
-// const root = ReactDOM.createElementById(root)
-//   root.render(<Firstjsx />,document.getElementById("root"))
-import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
+
+
+import ReactDOM from "react-dom/client";
 import { FcGoogle} from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
-// const Firstjsx = () => {
-
-// }
-
 
 
 function Firstjsx () {
-    
-
 
   return(
+ 
     <div>
     <div className="heading">
       <h1>TRADE ANALYST</h1>
@@ -36,15 +26,17 @@ function Firstjsx () {
         </ul>
        </nav>
 
+       <div className="button">
        
+       </div>
         
     </div>
     
-    <div class="horizontal-line"></div>
-    <div className="icong"><FcGoogle /></div>
-    <div className="icongit"><FaGithub /></div>
-    <div className="iconinsta"><FaSquareInstagram /></div>
-    <div className="iconface"><FaFacebookSquare /></div>
+    <div className="horizontal-line"></div>
+    <div className="icong"><a href="https://pbs.twimg.com/media/FDmiwD6VUAEGOEU.jpg"><FcGoogle /></a></div>
+    <div className="icongit"><a href="https://github.com/"><FaGithub /></a></div>
+    <div className="iconinsta"><a href="https://www.instagram.com/user_trk/"><FaSquareInstagram /></a></div>
+    <div className="iconface"><a href="https://www.facebook.com/tarak.maity.98837"><FaFacebookSquare /></a></div>
     <div className="middle">
       <h1>Market summary</h1>
     </div>
@@ -59,8 +51,10 @@ function Firstjsx () {
         </ul>
       </nav>
     </div>
+   
   
     </div>
+    
 )}
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Firstjsx />);
